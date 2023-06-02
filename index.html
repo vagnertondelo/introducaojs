@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+    
+    <button onclick="alerta()">clique aqui</button>
+    <button onclick="adicionarParagrafo()">adicionar Paragrafo</button>
+    <button onclick="soma(3)">soma</button>
+    <button onclick="adicionarValor()">Adicionar valor input</button>
+    <button onclick="pegaValor()">pegar valor</button><br/>
+    <p>Paragrado Readonly</p>
+    <input type="text" id="display" readonly><br>
+    <p>Paragrado </p>
+    <input type="text" id="valor">
+    <div id="paragrafo"></div>
+
+    <form id="myForm">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name"><br><br>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+    
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message"></textarea><br><br>
+    
+        <input type="submit" value="Enviar">
+    </form>
+
+    <div>
+        <p id="result"></p>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
